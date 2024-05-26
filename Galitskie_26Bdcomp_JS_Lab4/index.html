@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертер валют</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <button id="swap-z-index-button"><img class="imgs" src="./img/svgviewer-png-output.png"></button>
+    <div class="container">
+        <label for="exchange-rate">Курс долара:</label>
+        <input type="number" id="exchange-rate">
+        <label for="amount">Кількість грошей:</label>
+        <input type="number" id="amount">
+        <div class="block">
+        <button id="calculate-button">Обрахувати</button>
+        <button id="clear-button">⠀</button>
+    </div>
+        <p>Ви можете купити: </p>
+        <input type="value" id="result">
+    </div>
+    <div class="overlay">
+        <div>
+        <input type="text" id="text1">
+        <input type="text" id="text2">
+    </div>
+        <button id="swap-button">SWAP</button>
+        <p id="text1-info"></p>
+        <p id="text2-info"></p>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
